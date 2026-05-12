@@ -4,9 +4,14 @@
 To perform a study on Socket Programming
 ## Introduction:
 
- 	Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, and provides a practical example to demonstrate its implementation.
+Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, 
+and provides a practical example to demonstrate its implementation
+
 ## Understanding Socket Programming:
-	Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
+
+Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
+
+
 ## Key Concepts in Socket Programming:
 1.Sockets
 •	A socket is a software representation of a communication endpoint in a network.
@@ -87,6 +92,20 @@ print(s.recv(1024).decode())
 s.send("Acknowledgement Recived".encode())
 
 ```
+
+
+# Output:
+
+server side :
+
+<img width="740" height="97" alt="Screenshot 2026-05-12 195739" src="https://github.com/user-attachments/assets/2f5e2ff4-8b28-4770-a02d-704c36e2c3a8" />
+
+
+client side :
+
+<img width="737" height="75" alt="Screenshot 2026-05-12 195756" src="https://github.com/user-attachments/assets/2eb2e784-8ca9-4aff-82ad-750693203ffb" />
+
+
 
 ## Result:
 Thus the study of Socket Programming Completed Successfully
